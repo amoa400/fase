@@ -1,0 +1,23 @@
+{
+  "author": "amoa400 <amoa400@163.com>",
+  "name": "fase",
+  "description": "a fast & simple & efficient app framework of node.js",
+  "version": "0.0.1",
+  "keywords": [
+    "framework"
+    "fast",
+    "simple",
+    "efficient"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amoa400/fase.git"
+  },
+  "main": "index.js",
+
+  "dependencies": {
+  },
+
+  "devDependencies": {
+  }
+}
