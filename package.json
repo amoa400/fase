@@ -1,10 +1,11 @@
 {
   "author": "amoa400 <amoa400@163.com>",
   "name": "fase",
-  "description": "a fast & simple & efficient app framework of node.js",
+  "description": "a tool library of node.js for building app fast & simple & efficient",
   "version": "0.0.1",
   "keywords": [
-    "framework"
+    "fase",
+    "tool",
     "fast",
     "simple",
     "efficient"
