@@ -1,2 +1,2 @@
 fase  
-a fast & simple & efficient app framework of node.js
+a tool library of node.js for building app fast & simple & efficient
