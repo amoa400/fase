@@ -1,8 +1,12 @@
 "use strict";
 
-var fase = require('./lib/index.js')();
+var fase = require('./lib/index.js')({
+	lang: 'cn'
+});
+
 
 // validator
+/*
 var validator = fase.validator;
 
 validator.createModel('user', [
@@ -12,12 +16,12 @@ validator.createModel('user', [
 	['vvvv', 'amoa400']
 ]);
 
-console.log(
-	validator.validate('user', {name: '1234567', vvvv: 1})
-);
 
-
-
+var data = {name: '1234567', vvvv: 'amoa400', ttt: ''};
+validator.validate('user', data, 'notNull', function(err) {
+	console.log(err);
+});
+*/
 
 
 
