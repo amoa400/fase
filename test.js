@@ -6,22 +6,29 @@ var fase = require('./lib/index.js')({
 
 
 // validator
-/*
+
 var validator = fase.validator;
 
 validator.createModel('user', [
-	['name', 'length', [1, 3]],
-	['pass', 'length', [6, -1]],
-	['real', 'length', [-1, 9]],
-	['vvvv', 'amoa400']
+	['name', 'length', [4, 20]],
+	['name', 'char', ['eng', 'chn', 'num', '_']],
+	['name', 'range', [111, 444]],
+	['email', 'email'],
+	['phone', 'phone'],
+	['phone', 'type', 'string']
 ]);
 
 
-var data = {name: '1234567', vvvv: 'amoa400', ttt: ''};
-validator.validate('user', data, 'notNull', function(err) {
+var data = {
+	name: 123,
+	email: 'amoa400@163.com',
+	phone: 123
+};
+
+validator.validate('user', data, 'exist', function(err) {
 	console.log(err);
 });
-*/
+
 
 
 
