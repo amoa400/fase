@@ -6,7 +6,6 @@ var fase = require('./lib/index.js')({
 
 
 // validator
-
 var validator = fase.validator;
 
 validator.createModel('user', [
