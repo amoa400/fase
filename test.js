@@ -29,6 +29,67 @@ validator.validate('user', data, 'exist', function(err) {
 });
 
 
+/*
+(function() {
+
+  var err = {};
+  var res = {};
+  if (!resume) {
+    resume = callback;
+    callback = function() {};
+  }
+
+  // token校验
+  var tkinfo = '';
+  [err, tkinfo] = yield run(ctrl.user.verify, token, resume);
+  if (err) {
+    callback(err, null);
+    return;
+  }
+
+
+	
+
+	let a = 1;
+	console.log(a);
+
+})();
+
+
+var ttt = function() {
+	return 1;
+}
+
+var read = function*() {
+	console.log(123);
+	var t = 0;
+	var a = 1;
+	[t, a] = yield ttt();
+	console.log(t);
+	console.log(a);
+	console.log(dafd);
+}
+
+var r = read();
+r.next();
+r.next(1, 2);
+*/
+
+
+fase.definition.set('init', false, function() {
+	var a = 5;
+	var b = 9;
+});
+
+fase.definition.set('token', function() {
+	console.log(c);
+	return c;
+});
+
+fase.definition.generate('test2.js', 'test3.js');
+
+
+
 
 
 
