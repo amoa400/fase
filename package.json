@@ -2,7 +2,7 @@
   "author": "amoa400 <amoa400@163.com>",
   "name": "fase",
   "description": "a tool library of node.js for building app fast & simple & efficient",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "fase",
     "tool",
